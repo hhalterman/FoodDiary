@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 960px;
+	margin-left: auto;
+	margin-right:auto;
+	overflow: hidden;
+}
+
+#top{
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 350px;
+}
+
+#logo{
+  width: 200px;
+  float: left;
+}
+
+nav{
+  float:right;
+  margin-top: 20px;
+}
+
+nav li {
+	display: inline;
+	font-size: 20px;
+	padding-left: 35px;
+}
+
+nav ul {
+  margin-right: 40px;
+}
+
+nav a:link {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+nav a:visited {
+	color: rgb(89,161,201);
+}
+nav a:active {
+	color: rgb(59,107,67);
+}
+nav a:hover {
+	color: rgb(152,200,99);
+	}
+
+#welcome{
+
+}
+
+#welcomeinfo{
+  float:left;
+  width: 500px;
+  margin-top: 65px;
+  margin-left: 40px;
+}
+
+h2{
+	font-family: Brush Script MT,cursive;
+	font-size: 45px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+
+h3 {
+  font-family: "arial", Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#chef {
+  float:right;
+  margin-bottom: 70px;
+  margin-right: 25px;
+}
+
+
+#row1 {
+  margin-bottom: 20px;
+  clear: both;
+  margin-left: 20px;
+  }
+
+#gallery{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#gallery a {
+  display: inline-block;
+  height: 250px;
+  position: relative;
+  width: 250px;
+  padding-right: 20px;
+}
+
+
+text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-content {
+  background: rgba(0,0,0,0.5);
+  font-family: "arial", Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 135px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  border-radius: 50%;
+  padding-top: 115px;
+}
+
+#gallery a:hover span.text-content {
+  opacity: 1;
+}
+
+
+#row2 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#row3 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#row4 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.example-image {
+  border-radius: 50%;
+}
+
